@@ -11,4 +11,4 @@ Questions for reference:
 8. What is Prototype in JavaScript?
 9. What is Constructor in JavaScript?
 10. How many loops available in javascript?
-10. What are the loops available in javascript?
+11. What are the loops available in javascript?
