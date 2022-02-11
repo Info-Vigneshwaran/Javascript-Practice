@@ -3,3 +3,10 @@ Questions for reference:
 2. How many types of operators exists in javascript?
 3. How many bits are javascript used?
 4. Explain the logic of bitwise operator?
+5. Explain Bitwise Operators in details?
+6. Multiple ways to declare array?
+7. The Difference Between Arrays and Objects?
+  In JavaScript, arrays use numbered indexes.
+  In JavaScript, objects use named indexes.
+8. What is Prototype in JavaScript?
+8. What is Constructor in JavaScript?

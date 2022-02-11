@@ -42,7 +42,7 @@ setTimeout(function () {
 /* setTimeout function end */
 
 /* Constructor function Start */
-var construc = new Function('a', 'b', 'c', 'return a= a+b+c;');
+var construc = new Function('a', 'b', 'c', 'return b= a+b+c;');
 console.log(construc(2, 4, 6));
 /* Constructor function End */
 
