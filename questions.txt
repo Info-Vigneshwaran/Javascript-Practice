@@ -1,0 +1,3 @@
+Questions for reference:
+1.How many types of functions exists in javascript?
+2.How many types of operators exists in javascript?
