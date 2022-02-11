@@ -8,6 +8,26 @@
 4. Do While
 */
 
+/* For Each example start */
+console.log(`For each loop start`);
+let places = ['jack', 'joe', 'thilak', 'queen'];
+places.forEach(function (place) {
+  console.log(`Place ${place}`);
+});
+console.log(`For each loop end`);
+console.log(`\n`);
+/* For Each example end */
+
+/* For in example start */
+console.log(`For in loop start`);
+let person = ['jack', 'joe', 'thilak', 'queen'];
+for (key in person) {
+  console.log(person[key]);
+}
+console.log(`For in loop end`);
+console.log(`\n`);
+/* For in example end */
+
 /* For loop example start */
 console.log(`For loop 1 start`);
 
@@ -43,4 +63,4 @@ function task(i) {
     console.log(i);
   }, 500);
 }
-/* For loop example en */
+/* For loop example end */
