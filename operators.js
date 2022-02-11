@@ -103,3 +103,26 @@ if (x2 !== x1) {
 }
 /* Comparison operators end */
 console.log(`\n`);
+
+/* Ternary operator start */
+var x = 5;
+var y = 10;
+var z = x < y ? 'success' : 'failure';
+console.log(`Ternary operator ${z}`);
+/* Ternary operators end */
+console.log(`\n`);
+
+/* Bitwise operators start */
+// &, |, ^, ~, <<, >>
+console.log(`Bitwise AND operator ${4 & 9}`);
+
+console.log(`Bitwise OR operator ${1 | 4}`);
+
+console.log(`Bitwise XOR operator ${1 ^ 8}`);
+
+console.log(`Bitwise NOT operator ${~11}`);
+
+console.log(`Bitwise LEFT SHIFT operator ${8 << 2}`);
+
+console.log(`Bitwise RIGHT SHIFT operator ${7 >> 2}`);
+/* Bitwise operators end */
