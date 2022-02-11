@@ -12,3 +12,6 @@ Questions for reference:
 9. What is Constructor in JavaScript?
 10. How many loops available in javascript?
 11. What are the loops available in javascript?
+12. What is global and local variable in javascript?
+13. What is closure in javascript?
+14. 
