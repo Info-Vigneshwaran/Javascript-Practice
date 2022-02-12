@@ -14,4 +14,4 @@ Questions for reference:
 11. What are the loops available in javascript?
 12. What is global and local variable in javascript?
 13. What is closure in javascript?
-14. 
+14. How to use closure in javascript?
