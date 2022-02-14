@@ -1,4 +1,3 @@
-console.log('sfdhgsdjf');
 /*
 1. charAt()
 2. charCodeAt()
@@ -11,5 +10,12 @@ console.log('sfdhgsdjf');
 9. match()
 10. repeat()
 11. replace()
-12. 
+12. search()
+13. slice()
+14. split()
+15. substr()
+16. substring()
+17. toUpperCase()
+18. toLowerCase()
+19. trim()
 */
