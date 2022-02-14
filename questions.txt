@@ -15,3 +15,5 @@ Questions for reference:
 12. What is global and local variable in javascript?
 13. What is closure in javascript?
 14. How to use closure in javascript?
+15. What are the string methods available in javascript?
+16.
