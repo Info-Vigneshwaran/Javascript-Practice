@@ -6,4 +6,7 @@
 5. querySelectorAll()
 6. innerHTML property
 7. src property
+8. outerHTML property
+9. innerText property
+10. TextContent property
 */
