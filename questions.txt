@@ -16,4 +16,6 @@ Questions for reference:
 13. What is closure in javascript?
 14. How to use closure in javascript?
 15. What are the string methods available in javascript?
-16.
+16. What is DOM and how it will work?
+17. What are the document objects properties available in javascript?
+ 
