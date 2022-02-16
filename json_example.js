@@ -7,6 +7,11 @@
 
 //
 1. JSON.stringify() // convert javascript  object to JSON object
-2. JSON.pars() // convert JSON object to javascript object
+2. JSON.parse() // convert JSON object to javascript object
+3. new XMLHttpRequest()
+4. readyState
+5. status
+6. responseText()
+7. 
 //
 */

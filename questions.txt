@@ -20,4 +20,11 @@ Questions for reference:
 17. What are the document objects properties available in javascript?
 18. Explain innerHTML property?
 19. Difference between innerHTML vs outerHTML vs innerText vs textContent Properties in JavaScript?
+20. what are the classlist properties available in javascript?
+21. What is traversing DOM in javascript?
+22. Explain Nextsibling,previousSiblings,parentNode in javascript?
+23. What are the listener methods available in javascript?
+24. What is JSON. Explain in detail?
+25. What is AJAX. Explain in detail?
+
  
