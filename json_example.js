@@ -12,6 +12,6 @@
 4. readyState
 5. status
 6. responseText()
-7. 
+ 
 //
 */
