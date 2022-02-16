@@ -16,5 +16,18 @@
 1. screen.avialHeight
 1. screen.width
 1. screen.avialWidth
+1. screen.colorDepth
+1. screen.pixelDepth
 // Screen Properties
+
+// Location Properties
+1. window.location.href
+1. window.location.hostname
+1. window.location.pathname
+1. window.location.protocol
+1. window.location.assign
+// Location Properties
+
+// History Properties
+// History Properties
 */
