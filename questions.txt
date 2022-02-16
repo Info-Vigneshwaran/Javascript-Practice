@@ -28,5 +28,6 @@ Questions for reference:
 25. What is AJAX. Explain in detail?
 26. Explain How AJAX Works?
 27. Explain Call(),Bind(),Apply() methods in javascript?
+26. What is callback() function?
 
  
