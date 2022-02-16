@@ -15,5 +15,6 @@
 1. screen.height
 1. screen.avialHeight
 1. screen.width
+1. screen.avialWidth
 // Screen Properties
 */
