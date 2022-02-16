@@ -27,5 +27,6 @@ Questions for reference:
 24. What is JSON. Explain in detail?
 25. What is AJAX. Explain in detail?
 26. Explain How AJAX Works?
+27. Explain Call(),Bind(),Apply() methods in javascript?
 
  
