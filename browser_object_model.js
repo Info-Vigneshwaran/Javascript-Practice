@@ -29,5 +29,35 @@
 // Location Properties
 
 // History Properties
+1. window.history.back()
+1. window.history.forward()
 // History Properties
+
+// Navigator Properties
+1. navigator.cookieEnabled
+1. navigator.appName
+1. navigator.appVersion
+1. navigator.appCodeName
+1. navigator.product
+1. navigator.userAgent
+1. navigator.platform
+1. navigator.javaEnabled
+1. navigator.language
+1. navigator.onLine
+// Navigator Properties
+
+// Alert/Popup Properties
+1. alert
+2. prompt
+2. confirm
+// Alert/Popup Properties
+
+// Timing Events
+1. setTimeout
+2. clearTimeout
+3. setInterval
+4. clearInterval
+// Timing Events
+
+
 */
