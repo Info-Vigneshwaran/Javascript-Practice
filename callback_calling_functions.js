@@ -9,3 +9,19 @@ function callback_check(r, t) {
   console.log(`${r} ${t}`);
 }
 /* Callback function example end */
+
+/* Calling function example start */
+function first() {
+  console.log(`First`);
+  second();
+  third();
+}
+function second() {
+  console.log(`Second`);
+}
+
+function third() {
+  console.log(`Third`);
+}
+first();
+/* Calling function example end */

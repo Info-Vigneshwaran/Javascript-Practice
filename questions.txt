@@ -28,6 +28,9 @@ Questions for reference:
 25. What is AJAX. Explain in detail?
 26. Explain How AJAX Works?
 27. Explain Call(),Bind(),Apply() methods in javascript?
-26. What is callback() function?
+28. What is callback() function?
+29. What is calling() function in javascript?
+30. What is mutable object in javascript()?
+30. What is immutable object in javascript()?
 
  
