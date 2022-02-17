@@ -21,4 +21,12 @@
 Brackets end */
 
 /* Metacharacters start
+1. /\w/g - returns only string values
+1. /\W/g - returns only special characters
+1. /\d/g - returns without numbers
+1. /\s/g - returns only whitespaces
+1. /\S/g - returns without whitespaces including numbers and special characters also
+1. /\bES/g - returns beginning letter of the word (ES - input stirng)
+1. /ES\b/g - returns beginning letter of the word (ES - input stirng)
+1. /\0/g - removes null characters only
 Metacharacters end */
