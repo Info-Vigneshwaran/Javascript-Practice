@@ -39,3 +39,6 @@ Questions for reference:
 36. Difference between Session, Cookies, LocalStorage?
 37. What are the error handling methods available in javascript?
 38. What are regular expressions available in javascript?
+39. what is hoisting?
+40. How hoisting performed in javascript?
+41. Which is the default datatype in javascript?
