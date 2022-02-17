@@ -30,3 +30,10 @@ Brackets end */
 1. /ES\b/g - returns beginning letter of the word (ES - input stirng)
 1. /\0/g - removes null characters only
 Metacharacters end */
+
+/* Quantifiers start
+1. /\d{3,3}/g - return digits with 3 digits
+1. /\d{3,}/g - return digits with greater than equal to 3 digits
+1. /a* /g - return 'a' character all the remaining elements are whitespace
+1. /is$/g - check the given string in end of the stirng only
+Quantifiers end */
