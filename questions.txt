@@ -32,3 +32,8 @@ Questions for reference:
 29. What is calling() function in javascript?
 30. What is mutable object in javascript?
 31. What is immutable object in javascript? 
+32. Difference between mutable and immutable object?
+33. What is Cookies in javascript?
+34. What is Session in javascript?
+35. What is LocalStorage in javascript?
+36. Difference between Session, Cookies, LocalStorage?
