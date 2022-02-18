@@ -54,3 +54,4 @@ Questions for reference:
 51. What is targe event property in javascript?
 52. What are the value property available in javascript?
 53. What is getters and setters in javascript?
+54. Difference between == and === in javascript?
