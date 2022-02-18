@@ -52,3 +52,5 @@ Questions for reference:
 49. Difference between Deep copy vs Shallow copy?
 50. What is event.preventDefault() in javascript?
 51. What is targe event property in javascript?
+52. What are the value property available in javascript?
+53. What is getters and setters in javascript?
