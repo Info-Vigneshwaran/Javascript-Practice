@@ -50,3 +50,4 @@ Questions for reference:
 47. What is primitive datatype in javascript?
 48. What is Deep copy and Shallow copy in javascript?
 49. Difference between Deep copy vs Shallow copy?
+50. What is event.preventDefault() in javascript?
