@@ -44,3 +44,9 @@ Questions for reference:
 41. Which is the default datatype in javascript?
 42. What is Event Bubbling,Event Capturing,Event target?
 43. Difference between Event Bubbling,Event Capturing,Event target?
+44. What is aysnc and defer in javascript?
+45. Difference between aysnc and defer in javascript?
+46. What are the primitive datatypes available in javascript?
+47. What is primitive datatype in javascript?
+48. What is Deep copy and Shallow copy in javascript?
+49. Difference between Deep copy vs Shallow copy?
