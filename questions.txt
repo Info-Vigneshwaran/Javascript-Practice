@@ -42,3 +42,5 @@ Questions for reference:
 39. what is hoisting?
 40. How hoisting performed in javascript?
 41. Which is the default datatype in javascript?
+42. What is Event Bubbling,Event Capturing,Event target?
+43. Difference between Event Bubbling,Event Capturing,Event target?
