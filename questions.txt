@@ -55,3 +55,5 @@ Questions for reference:
 52. What are the value property available in javascript?
 53. What is getters and setters in javascript?
 54. Difference between == and === in javascript?
+55. Explain prototypes in javascript?
+56. Explain prototype chainning in javascript?
