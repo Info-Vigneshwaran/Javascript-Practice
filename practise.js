@@ -30,10 +30,17 @@ console.log(second);
 
 function addition(a) {
   return function (b) {
-    if (b) {
+    if (b !== undefined) {
       return addition(a + b);
     }
     return a;
   };
 }
 console.log(addition(5)(2)());
+
+obj1 = { a: 10 };
+const obj2 = obj1;
+obj2.a = 20;
+console.log(obj1);
+console.log(obj2);
+// let obj1;
