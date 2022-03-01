@@ -27,3 +27,13 @@ var second = intArray.sort(function (a, b) {
   return b - a;
 })[1];
 console.log(second);
+
+function addition(a) {
+  return function (b) {
+    if (b) {
+      return addition(a + b);
+    }
+    return a;
+  };
+}
+console.log(addition(5)(2)());
