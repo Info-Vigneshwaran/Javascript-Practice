@@ -9,4 +9,6 @@ var a = (a, b) => {
 a(5);
 
 console.log(test);
- 
+
+var x = 5;
+console.log(typeof typeof x);
