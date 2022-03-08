@@ -12,3 +12,10 @@ console.log(test);
 
 var x = 5;
 console.log(typeof typeof x);
+
+function mul(a) {
+  return function (b) {
+    return b ? mul(a * b) : a;
+  };
+}
+console.log(mul(2)(3)(4)());
