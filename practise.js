@@ -44,3 +44,7 @@ obj2.a = 20;
 console.log(obj1);
 console.log(obj2);
 // let obj1;
+var demo = undefined;
+var demo1 = null;
+console.log(demo == demo1);
+console.log(demo === demo1);
