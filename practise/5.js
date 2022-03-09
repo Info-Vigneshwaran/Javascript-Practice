@@ -15,3 +15,5 @@ const calculation = {
 };
 let calc = calculation.add(2).multi(3).multi(8);
 console.log(calc.total);
+
+//https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/master/javascript/javascript-quiz.md
