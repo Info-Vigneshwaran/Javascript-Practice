@@ -8,3 +8,8 @@ const add = (a) => a + 20;
 
 const cp = compose(add, muti);
 console.log(cp(5));
+
+let f = '8';
+let a = 1;
+console.log(+f + a + 1);
+console.log(f + a + 1);
