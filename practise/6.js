@@ -30,4 +30,4 @@ let reverse_str = str
     return str2.split('').reverse().join('');
   })
   .join();
-console.log(reverse_str);
+console.log(reverse_str.replaceAll(',', ' '));
