@@ -22,3 +22,12 @@ let arrB = arrA.flatMap((x, i) => {
   }
 });
 console.log(arrB);
+
+let str = 'my name is quest';
+let reverse_str = str
+  .split(' ')
+  .map((str2, i) => {
+    return str2.split('').reverse().join('');
+  })
+  .join();
+console.log(reverse_str);
