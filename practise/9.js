@@ -12,8 +12,7 @@ let arrayIntegers3 = arrayIntegers.slice(4); //returns [5]
 console.log(arrayIntegers);
 console.log(arrayIntegers3);
 
-var mainString = 'helloas 34',
-  subString = 'hell';
+var mainString = 'helloas 34',subString = 'hell';
 console.log(mainString.includes(subString));
 console.log(mainString.match(/\d+/));
 
