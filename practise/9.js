@@ -53,3 +53,9 @@ let match_s = s.match(/\d+/gi);
 
 thenum = 'foo3bar5'.match(/\d+/gi); // "3"
 console.log(match_s);
+
+let splitted = s
+  .split(' ')
+  .map((a) => a.split('').reverse().join(''))
+  .join(' ');
+console.log(splitted);
