@@ -25,3 +25,11 @@ var a = 10;
 var b = 15;
 [b, a] = [a, b];
 console.log(`${a} ${b}`);
+
+var array = ['GFG', 'Geeks', 'for', 'Geeks'];
+var value = array.shift();
+console.log(`${array}`);
+
+var array2 = ['GFG', 'Geeks', 'for', 'Geeks'];
+var value2 = array2.pop();
+console.log(`${array2}`);
