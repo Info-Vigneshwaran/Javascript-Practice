@@ -33,3 +33,10 @@ console.log(`${array}`);
 var array2 = ['GFG', 'Geeks', 'for', 'Geeks'];
 var value2 = array2.pop();
 console.log(`${array2}`);
+
+kk = 10;
+if (kk > 1) {
+  kk = kk + 1;
+}
+console.log(kk);
+var kk;
