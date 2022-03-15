@@ -47,3 +47,8 @@ function xz(a) {
   };
 }
 console.log(xz(8)(9)('add'));
+
+var s = 'test num 878';
+let match_s = s.match(/\d+/);
+
+console.log(match_s);
