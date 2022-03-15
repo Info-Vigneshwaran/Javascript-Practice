@@ -40,3 +40,10 @@ if (kk > 1) {
 }
 console.log(kk);
 var kk;
+
+function xz(a) {
+  return function (b) {
+    return !isNaN(b) ? xz(a + b) : a;
+  };
+}
+console.log(xz(8)(9)('add'));
