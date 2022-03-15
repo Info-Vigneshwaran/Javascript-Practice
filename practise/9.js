@@ -43,7 +43,7 @@ var kk;
 
 function xz(a) {
   return function (b) {
-    return !isNaN(b) ? xz(a + b) : a;
+    return typeof b === 'number' ? xz(a + b) : a;
   };
 }
 console.log(xz(8)(9)('add'));
