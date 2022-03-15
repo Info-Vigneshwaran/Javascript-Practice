@@ -59,3 +59,6 @@ let splitted = s
   .map((a) => a.split('').reverse().join(''))
   .join(' ');
 console.log(splitted);
+s = 1234 + '';
+let zz = s.split('');
+console.log(zz.reverse().join(''));
