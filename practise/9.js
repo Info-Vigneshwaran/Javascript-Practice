@@ -48,7 +48,8 @@ function xz(a) {
 }
 console.log(xz(8)(9)('add'));
 
-var s = 'test num 878';
-let match_s = s.match(/\d+/);
+var s = 'test num 878 34 msf78';
+let match_s = s.match(/\d+/gi);
 
+thenum = 'foo3bar5'.match(/\d+/gi); // "3"
 console.log(match_s);
