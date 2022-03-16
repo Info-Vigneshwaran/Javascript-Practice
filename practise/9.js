@@ -15,7 +15,7 @@ console.log(arrayIntegers3);
 var mainString = 'helloas 34 56 88 54 11',
   subString = 'hell';
 console.log(mainString.includes(subString));
-console.log(mainString.match(/\d+/));
+console.log(mainString.match(/\d+/g));
 
 var r = /\d+/;
 var s = 'you can enter maximum 500 choices';
