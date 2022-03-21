@@ -40,7 +40,23 @@
 // }, 0);
 // console.log('Two First');
 
-var title = ['test', 'test2'];
-title[0] = 'sdfhk';
-title[1][0] = 'dskghjk';
-console.log(`Array - ${title} `);
+// var title = ['test', 'test2'];
+// title[0] = 'sdfhk';
+// title[1][0] = 'dskghjk';
+// console.log(`Array - ${title} `);
+
+// console.log(undefined == false);
+// console.log(undefined == 0);
+// console.log(0 == false);
+// console.log(0 == null);
+// console.log(undefined == null);
+
+// var countArr = ['2', '3', '6', 'f'];
+// countArr['3'] = '4';
+// countArr[4] = '410';
+// countArr['five'] = '410';
+// console.log(countArr);
+// console.log(countArr.length);
+
+// var x = 'testsdfsd';
+// console.log([...x].reverse().join(''));
