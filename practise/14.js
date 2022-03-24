@@ -13,3 +13,30 @@ let array = [1, 2, 3, 4, 5, 6, 7, 9];
 //   return prevValue;
 // }, []);
 // console.log(new_array);
+
+let array2 = [
+  1,
+  7,
+  1,
+  2,
+  3,
+  5,
+  3,
+  'new',
+  'new2',
+  'new',
+  'new2',
+  3,
+  4,
+  5,
+  6,
+  7,
+  9,
+];
+
+let new_dupe = new Set([...array2]);
+let reverse = [...new_dupe].reduceRight((value, index) => {
+  value.push(index);
+  return value;
+}, []);
+console.log(reverse);
