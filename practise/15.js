@@ -17,9 +17,10 @@
 // console.log(leapYear(2000));
 
 let neg_array = [10, -3, 7, -7, -9, 39];
-let pos_array = neg_array.filter((value, index) => {
-  return value > 0;
-});
+let pos_array = neg_array.reduceRight((prevValue, currentValue, array) => {
+  console.log(prevValue);
+  return currentValue + prevValue;
+}, 2);
 console.log(pos_array);
 let space_str = 'trr sfsdf sdaefsd wr 909 sdf0909';
 console.log(space_str.match(/\d+/g));
