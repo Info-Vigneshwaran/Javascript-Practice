@@ -20,21 +20,26 @@ let check_array = [1, 2, 3, 4, 5];
 //   });
 // };
 // console.log(SevenCheck(check_array, stack));
-let dup_arr = check_array.filter(
-  (item, index) => check_array.indexOf(item) !== index
-);
-let sum_arr = 0;
-let odd_arr = 0;
-let even_arr = 0;
+// let dup_arr = check_array.filter(
+//   (item, index) => check_array.indexOf(item) !== index
+// );
+// let sum_arr = 0;
+// let odd_arr = 0;
+// let even_arr = 0;
 
-let ans_arr = check_array.map((item, value) => {
-  sum_arr += item;
-  if (item % 2 == 0) {
-    odd_arr += item;
-  } else {
-    even_arr += item;
-  }
-});
-console.log(check_array);
-console.log(odd_arr);
-console.log(even_arr);
+// let ans_arr = check_array.map((item, value) => {
+//   sum_arr += item;
+//   if (item % 2 == 0) {
+//     odd_arr += item;
+//   } else {
+//     even_arr += item;
+//   }
+// });
+// console.log(check_array);
+// console.log(odd_arr);
+// console.log(even_arr);
+
+let arr = [10, 20, 30, 40];
+
+ans = Array.isArray(arr);
+console.log(ans);
