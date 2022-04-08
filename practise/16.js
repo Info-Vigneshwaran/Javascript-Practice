@@ -91,7 +91,8 @@ let check_array = [1, 2, 3, 4, 5];
 // a();
 
 let x = [5, 3, 5];
+let y = [5, 3, 5];
 let b = 10;
 x.unshift(b);
 console.log(x);
-console.log([2, ...x]);
+console.log([...y, ...x]);
