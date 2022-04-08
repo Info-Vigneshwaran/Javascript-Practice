@@ -90,9 +90,13 @@ let check_array = [1, 2, 3, 4, 5];
 
 // a();
 
-let x = [5, 3, 5];
-let y = [5, 3, 5];
-let b = 10;
-x.unshift(b);
-console.log(x);
-console.log([...y, ...x]);
+// let x = [5, 3, 5];
+// let y = [5, 3, 5];
+// let b = 10;
+// x.unshift(b);
+// console.log(x);
+// console.log([...y, ...x]);
+
+var temp = 'Hello World!';
+var count = (temp.match(/l/g) || []).length;
+console.log(count);
