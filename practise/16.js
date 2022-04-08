@@ -39,7 +39,59 @@ let check_array = [1, 2, 3, 4, 5];
 // console.log(odd_arr);
 // console.log(even_arr);
 
-let arr = [10, 20, 30, 40];
+// let arr = [10, 20, 30, 40];
 
-ans = Array.isArray(arr);
-console.log(ans);
+// ans = Array.isArray(arr);
+// console.log(ans);
+
+// const obj = {
+//   1: 5,
+//   2: 7,
+//   3: 0,
+//   4: 0,
+//   5: 0,
+//   6: 0,
+//   7: 0,
+//   8: 0,
+//   9: 0,
+//   10: 0,
+//   11: 0,
+//   12: 0,
+// };
+
+// console.log(Object.entries({ ...obj }));
+
+// a = '1';
+// f = '2';
+// console.log(+a + 2 + +f);
+
+// function a() {
+//   var apple = 'Apple';
+//   var banana = 'Banana';
+//   function b() {
+//     if (true) {
+//       console.log(apple, banana);
+//     }
+//   }
+//   b();
+//   console.log(apple, banana);
+// }
+// a();
+// const a = () => {
+//   const b = () => {
+//     if (true) {
+//       var apple = 'apple';
+//       var banana = 'banana';
+//     }
+//     console.log(apple, banana);
+//   };
+//   b();
+// };
+
+// a();
+
+let x = [5, 3, 5];
+let b = 10;
+x.unshift(b);
+console.log(x);
+console.log([2, ...x]);
