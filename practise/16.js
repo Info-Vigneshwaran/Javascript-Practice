@@ -38,5 +38,3 @@ let ans_arr = check_array.map((item, value) => {
 console.log(sum_arr);
 console.log(odd_arr);
 console.log(even_arr);
-
-// console.log(dup_arr);
