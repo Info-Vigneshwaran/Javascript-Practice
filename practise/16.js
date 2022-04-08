@@ -35,6 +35,6 @@ let ans_arr = check_array.map((item, value) => {
     even_arr += item;
   }
 });
-console.log(sum_arr);
+console.log(check_array);
 console.log(odd_arr);
 console.log(even_arr);
