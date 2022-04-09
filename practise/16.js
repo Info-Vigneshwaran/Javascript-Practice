@@ -97,6 +97,13 @@ let check_array = [1, 2, 3, 4, 5];
 // console.log(x);
 // console.log([...y, ...x]);
 
-var temp = 'Hello World!';
-var count = (temp.match(/l/g) || []).length;
-console.log(count);
+// var temp = 'Hello World!';
+// var count = (temp.match(/l/g) || []).length;
+// console.log(count);
+
+let new_arr = [1, 2, 3, 1, 2, 1, 4, 6, 8];
+console.log(new_arr.slice(0, 2));
+console.log(new_arr);
+
+console.log(new_arr.splice(0, 2));
+console.log(new_arr);
