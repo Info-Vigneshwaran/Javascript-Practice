@@ -102,6 +102,7 @@ let check_array = [1, 2, 3, 4, 5];
 // console.log(count);
 
 let new_arr = [1, 2, 3, 1, 2, 1, 4, 6, 8];
+console.log(Number('sdf'));
 console.log(new_arr.slice(0, 2));
 console.log(new_arr);
 
