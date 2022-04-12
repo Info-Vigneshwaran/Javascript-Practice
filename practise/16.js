@@ -101,10 +101,22 @@ let check_array = [1, 2, 3, 4, 5];
 // var count = (temp.match(/l/g) || []).length;
 // console.log(count);
 
-let new_arr = [1, 2, 3, 1, 2, 1, 4, 6, 8];
-console.log(Number('sdf'));
-console.log(new_arr.slice(0, 2));
-console.log(new_arr);
+// let new_arr = [1, 2, 3, 1, 2, 1, 4, 6, 8];
+// console.log(Number('sdf'));
+// console.log(new_arr.slice(0, 2));
+// console.log(new_arr);
 
-console.log(new_arr.splice(0, 2));
-console.log(new_arr);
+// console.log(new_arr.splice(0, 2));
+// console.log(new_arr);
+
+function mul(a) {
+  return function (b) {
+    return b ? mul(a * b) : a;
+  };
+}
+const mult = (a) => {
+  return (b) => {
+    return b ? mult(a + b) : a;
+  };
+};
+console.log(mult(2)(3)(4)());
