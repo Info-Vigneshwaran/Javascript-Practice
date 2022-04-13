@@ -90,3 +90,5 @@ let ex_arr = [1, 2, 3, 4, 5, 6].sort(() => {
 
 console.log(ex_arr);
 console.log(ex_arr.indexOf(3));
+
+console.log([1, 2, 3, 4].sort(() => (Math.random() > 0.5 ? 1 : -1)));
