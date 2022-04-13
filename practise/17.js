@@ -28,17 +28,17 @@
 
 // console.log(unique);
 
-const input = [1, 3, 10, 11, 5];
-let target = 8;
-let new_arr = [];
-const new_check = input.filter((value, index) => {
-  const diffIndex = input.indexOf(target - value);
-  if (diffIndex >= 0 && diffIndex !== index) {
-    new_arr.push(diffIndex);
-    diffIndex;
-  }
-});
-console.log(new_arr);
+// const input = [1, 3, 10, 11, 5];
+// let target = 8;
+// let new_arr = [];
+// const new_check = input.filter((value, index) => {
+//   const diffIndex = input.indexOf(target - value);
+//   if (diffIndex >= 0 && diffIndex !== index) {
+//     new_arr.push(diffIndex);
+//     diffIndex;
+//   }
+// });
+// console.log(new_arr);
 
 // MAP creates a new array
 // MPA return new Array
