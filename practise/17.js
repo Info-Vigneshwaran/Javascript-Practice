@@ -19,7 +19,7 @@
 let a = [1, 5, 7];
 let b = [11, 15, 17];
 let c = [...new Set([...a, ...b])];
-console.log(c);
+// console.log(c);
 // let d = a.push(b);
 // var a = [1, 2, 3, 4, 5, 3, 1, 5, 6, 8, 8];
 
