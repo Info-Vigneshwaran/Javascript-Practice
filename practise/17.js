@@ -33,8 +33,27 @@ let target = 21;
 let new_arr = [];
 const new_check = input.filter((value, index) => {
   const diffIndex = input.indexOf(target - value);
+  console.log(index);
   if (diffIndex >= 0 && diffIndex !== index) {
-    return diffIndex;
+    new_arr.push(diffIndex);
+    diffIndex;
   }
 });
-console.log(new_check);
+// console.log(new_arr);
+
+// MAP creates a new array
+// MPA return new Array
+var arr = [1, 2, 3, 4, 5, 6, 7];
+
+// var newArr = arr.map((el) => {
+//   return el * 2;
+// });
+
+// console.log(newArr); //2,4,3,8,10,12,14
+
+// filter() return new Array
+var newFilter = arr.filter((el, value, self) => {
+  console.log(value);
+  return value;
+});
+console.log(newFilter); // 1,2,3,4,5,6,7
