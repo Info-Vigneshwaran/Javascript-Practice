@@ -56,3 +56,37 @@ let c = [...new Set([...a, ...b])];
 //   return value;
 // });
 // console.log(newFilter); // 1,2,3,4,5,6,7
+
+// function getIndex(...args) {
+//   let [sumArray, target] = args;
+//   const arr = [];
+//   let getAr = sumArray.filter((nums, i, self) => {
+//     let final = target - nums;
+//     if (self.indexOf(final) !== -1) {
+//       arr.push(self.indexOf(final));
+//     }
+//   });
+//   return arr;
+// }
+
+// let sum = getIndex([0, 1, 16, 5, 12, 3], 8);
+
+// console.log(sum);
+
+// let new_Arr = [4, 8, 1, 9];
+
+// let sortA = new_Arr
+//   .sort((a, b) => {
+//     return Number(a) < Number(b) ? 1 : -1;
+//   })
+//   .join('');
+
+// console.log(String(sortA));
+
+let ex_arr = [1, 2, 3, 4, 5, 6].sort(() => {
+  ran = 0.3 - Math.random();
+  return ran;
+});
+
+console.log(ex_arr);
+console.log(ex_arr.indexOf(3));
