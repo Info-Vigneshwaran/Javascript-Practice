@@ -12,7 +12,7 @@ Array.prototype.reshape = function (flate) {
 };
 
 let str = ['h', 'e', 'l'];
-// console.log(str.join(''));
+console.log(str.join('').split(''));
 let x = [
   [1, 36, 5, 7],
   [10, 11, 16, 20],
