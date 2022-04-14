@@ -12,7 +12,7 @@ Array.prototype.reshape = function (flate) {
 };
 
 let str = ['h', 'e', 'l'];
-console.log(str.join('').split(''));
+// console.log(str.join('').split(''));
 let x = [
   [1, 36, 5, 7],
   [10, 11, 16, 20],
@@ -35,4 +35,20 @@ let new_matrix = matrix[0].map((val, index) => {
     })
     .reverse();
 });
-console.log(new_matrix);
+// console.log(new_matrix);
+
+let stat_arr = [1, 1, 1, 2, 2, 22, 2, 2, 2, 3, 3, 4];
+
+var unique = stat_arr.reduce((acc, curr) => {
+  return acc[curr] ? ++acc[curr] : (acc[curr] = 1), acc;
+}, {});
+
+// console.log(stat_arr.values());
+let result = {};
+
+for (var i = 0; i < stat_arr.length; ++i) {
+  if (!result[stat_arr[i]]) result[stat_arr[i]] = 0;
+  ++result[stat_arr[i]];
+}
+
+console.log(result);
