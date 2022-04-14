@@ -54,12 +54,8 @@ for (var i = 0; i < stat_arr.length; ++i) {
 let count = {};
 
 for (const element of stat_arr) {
-  // console.log(element);
-  if (count[element]) {
-    count[element] += 1;
-  } else {
-    count[element] = 1;
-  }
+  // console.log(count[element]);
+  count[element] ? (count[element] += 1) : (count[element] = 1);
 }
 
 console.log(count);
