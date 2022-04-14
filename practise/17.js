@@ -93,6 +93,44 @@ let c = [...new Set([...a, ...b])];
 
 // console.log([1, 2, 3, 4].sort(() => (Math.random() > 0.3 ? 1 : -1)));
 
-// let nex_arr = [1, 2, 3];
+let nex_arr = [1, 2, 3];
 // nex_arr[nex_arr.length - 1] = nex_arr[nex_arr.length - 1] + 1;
 // console.log(nex_arr);
+let lastElement2 = nex_arr.pop();
+// console.log(nex_arr);
+
+let grid = [
+  [1, 3, 5, 7],
+  [10, 11, 16, 20],
+  [23, 30, 34, 50],
+];
+let diad_total = 0;
+grid.forEach((new_elem, i) => {
+  i == 0
+    ? new_elem.reduce((prev, value) => {
+        return (diad_total += value);
+      }, 0)
+    : (diad_total += new_elem[new_elem.length - 1]);
+});
+console.log(diad_total);
+let new_grid = grid
+  .flat(Infinity)
+  .sort(() => {
+    return a < b ? 1 : -1;
+  })
+  .reduce((prev, curr, index) => {
+    return index % 3 == 0 ? prev.concat(grid.slice(index, index + 3)) : prev;
+  }, []);
+
+// let new_flat = grid.flat(Infinity).reduce((prev, curr) => {
+//   return (curr = prev * curr);
+// });
+// console.log(new_grid);
+
+var data = ['chicken', '10 lbs', 'hot sauce', '4 cups', 'celery', '1 stalk'];
+
+var res = data.reduce((a, c, i) => {
+  return i % 2 === 0 ? a.concat([data.slice(i, i + 2)]) : a;
+}, []);
+
+// console.log(res);
