@@ -88,7 +88,7 @@ let ex_arr = [1, 2, 3, 4, 5, 6].sort(() => {
   return ran;
 });
 
-console.log(ex_arr);
-console.log(ex_arr.indexOf(3));
+// console.log(ex_arr);
+// console.log(ex_arr.indexOf(3));
 
-console.log([1, 2, 3, 4].sort(() => (Math.random() > 0.5 ? 1 : -1)));
+console.log([1, 2, 3, 4].sort(() => (Math.random() > 0.3 ? 1 : -1)));
