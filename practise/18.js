@@ -36,12 +36,13 @@ let new_matrix = matrix[0].map((val, index) => {
     .reverse();
 });
 // console.log(new_matrix);
-
+console.time();
 let stat_arr = [1, 1, 1, 2, 2, 22, 2, 2, 2, 3, 3, 4];
 
 var unique = stat_arr.reduce((acc, curr) => {
   return acc[curr] ? ++acc[curr] : (acc[curr] = 1), acc;
 }, {});
+console.timeEnd();
 
 // console.log(stat_arr.values());
 let result = {};
@@ -50,7 +51,7 @@ for (var i = 0; i < stat_arr.length; ++i) {
   if (!result[stat_arr[i]]) result[stat_arr[i]] = 0;
   ++result[stat_arr[i]];
 }
-
+console.time();
 let count = {};
 
 for (const element of stat_arr) {
@@ -59,3 +60,4 @@ for (const element of stat_arr) {
 }
 
 console.log(count);
+console.timeEnd();
