@@ -21,15 +21,16 @@ let x = [
 // console.log(x.reshape(4));
 
 var matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
+  [1, 2, 3, 4],
+  [4, 5, 6, 5],
+  [7, 8, 9, 6],
 ];
 
 let new_matrix = matrix[0].map((val, index) => {
   // console.log(index);
   return matrix
     .map((row) => {
+      // console.log(row[index]);
       return row[index];
     })
     .reverse();
