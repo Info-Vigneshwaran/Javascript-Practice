@@ -51,4 +51,15 @@ for (var i = 0; i < stat_arr.length; ++i) {
   ++result[stat_arr[i]];
 }
 
-console.log(result);
+let count = {};
+
+for (const element of stat_arr) {
+  // console.log(element);
+  if (count[element]) {
+    count[element] += 1;
+  } else {
+    count[element] = 1;
+  }
+}
+
+console.log(count);
