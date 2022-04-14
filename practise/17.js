@@ -83,12 +83,16 @@ let c = [...new Set([...a, ...b])];
 
 // console.log(String(sortA));
 
-let ex_arr = [1, 2, 3, 4, 5, 6].sort(() => {
-  ran = 0.3 - Math.random();
-  return ran;
-});
+// let ex_arr = [1, 2, 3, 4, 5, 6].sort(() => {
+//   ran = 0.3 - Math.random();
+//   return ran;
+// });
 
 // console.log(ex_arr);
 // console.log(ex_arr.indexOf(3));
 
-console.log([1, 2, 3, 4].sort(() => (Math.random() > 0.3 ? 1 : -1)));
+// console.log([1, 2, 3, 4].sort(() => (Math.random() > 0.3 ? 1 : -1)));
+
+// let nex_arr = [1, 2, 3];
+// nex_arr[nex_arr.length - 1] = nex_arr[nex_arr.length - 1] + 1;
+// console.log(nex_arr);
