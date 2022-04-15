@@ -68,4 +68,4 @@ let sort_arr = unsorted
   .map((val, index) => {
     return val * val;
   });
-console.log(sort_arr);
+// console.log(sort_arr);
