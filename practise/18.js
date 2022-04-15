@@ -36,13 +36,13 @@ let new_matrix = matrix[0].map((val, index) => {
     .reverse();
 });
 // console.log(new_matrix);
-console.time();
+// console.time();
 let stat_arr = [1, 1, 1, 2, 2, 22, 2, 2, 2, 3, 3, 4];
 
 var unique = stat_arr.reduce((acc, curr) => {
   return acc[curr] ? ++acc[curr] : (acc[curr] = 1), acc;
 }, {});
-console.timeEnd();
+// console.timeEnd();
 
 // console.log(stat_arr.values());
 let result = {};
@@ -51,7 +51,7 @@ for (var i = 0; i < stat_arr.length; ++i) {
   if (!result[stat_arr[i]]) result[stat_arr[i]] = 0;
   ++result[stat_arr[i]];
 }
-console.time();
+// console.time();
 let count = {};
 
 for (const element of stat_arr) {
@@ -59,5 +59,11 @@ for (const element of stat_arr) {
   count[element] ? (count[element] += 1) : (count[element] = 1);
 }
 
-console.log(count);
-console.timeEnd();
+// console.log(count);
+// console.timeEnd();
+
+let x_arr = [1, 2, 3, 4];
+let x_arr3 = x_arr.reduce((id, value) => {
+  return id.concat([{ _id: value }]);
+}, []);
+console.log(x_arr3);
