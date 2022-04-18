@@ -6,6 +6,6 @@ const x = () => {
 };
 x();
 
-console.log(a);
-let a;
 a = 20;
+console.log(a);
+var a;
