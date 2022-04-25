@@ -7,7 +7,8 @@ const new_arr = a.filter((prev, curr, self) => {
   }
 });
 
-let dup_arr = [2, 1, 1, 2, 3, 8, 9, 9, 5, 3];
+// let dup_`arr = [2, 1, 1, 2, 3, 8, 9, 9, 5, 3];
+let dup_arr = ['a', 'b', 'a', 'b', 'c', 'e', 'e', 'c', 'd', 'd', 'd', 'd'];
 let uni_arr = dup_arr.filter((value, index, self) => {
   return self.indexOf(value) == index;
 });
