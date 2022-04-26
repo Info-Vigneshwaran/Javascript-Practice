@@ -18,3 +18,6 @@ console.log([...new Set(uni_arr)]);
 //   return self.indexOf(curr) != index;
 // }, {});
 // console.log(uni_arr3);
+
+let y = String(7982);
+console.log([...y]);
