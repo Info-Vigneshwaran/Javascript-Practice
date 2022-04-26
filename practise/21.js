@@ -20,4 +20,9 @@ console.log([...new Set(uni_arr)]);
 // console.log(uni_arr3);
 
 let y = String(7982);
-console.log([...y]);
+let new_sum = [...y].reduce((prev, curr) => {
+  // console.log(curr);
+  return (curr = Number(prev) + Number(curr));
+}, 0);
+
+console.log(new_sum);
