@@ -13,3 +13,8 @@ let uni_arr = dup_arr.filter((value, index, self) => {
   return self.indexOf(value) != index;
 });
 console.log([...new Set(uni_arr)]);
+
+// let uni_arr3 = dup_arr.reduce((prev, curr, index, self) => {
+//   return self.indexOf(curr) != index;
+// }, {});
+// console.log(uni_arr3);
