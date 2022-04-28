@@ -26,3 +26,4 @@ let new_sum = [...y].reduce((prev, curr) => {
 }, 0);
 
 console.log(new_sum);
+
